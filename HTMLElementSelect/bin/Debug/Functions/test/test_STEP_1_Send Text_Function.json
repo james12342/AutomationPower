@@ -1,0 +1,25 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+ 
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"True",
+	  "NavigateURL":"https://www.google.com/?gws_rd=ssl#spf=1633066572219",	 
+	  "Action":"Send Value",
+	  "isDynamicElementXPath":"",
+	  "DynamicElementTagName":"",
+	  "DynamicElementAttributeName":"",
+	  "DynamicElementAttributeValue1":"",
+	  "DynamicElementAttributeValue2":"",
+      "ElementXPath":"/html[1]/body[1]/center[1]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/input[1]",
+	  "SendValue":"test",
+	  "AfterDoneWaitSeconds":"0",
+	  "AfterDoneRedirectURL":""
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_KEY_07",
+  "FunctionCategoryName": "KEY",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+  "FunctionDetail": 
+  [
+    {
+	  "Action":"Send KEY",
+      "KEYName":"FunctionDetail_KEYName1_SampleXXX",
+	  "KEYSendTimes":"FunctionDetail_KEYSendTimes1_SampleXXX",
+	  "KEYSendWaitSeconds":"FunctionDetail_KEYSendWaitSeconds1_SampleXXX",
+	  "AfterDoneRedirectURL":"FunctionDetail_AfterDoneRedirectURL_SampleXXX"
+    },
+	 {
+	  "Action":"Send KEY",
+      "KEYName":"FunctionDetail_KEYName2_SampleXXX",
+	  "KEYSendTimes":"FunctionDetail_KEYSendTimes2_SampleXXX",
+	   "KEYSendWaitSeconds":"FunctionDetail_KEYSendWaitSeconds1_SampleXXX",
+	  "AfterDoneRedirectURL":"FunctionDetail_AfterDoneRedirectURL_SampleXXX"
+    },
+	 {
+	  "Action":"Send KEY",
+      "KEYName":"FunctionDetail_KEYName3_SampleXXX",
+	  "KEYSendTimes":"FunctionDetail_KEYSendTimes3_SampleXXX",
+	  "KEYSendWaitSeconds":"FunctionDetail_KEYSendWaitSeconds1_SampleXXX",
+	  "AfterDoneRedirectURL":"FunctionDetail_AfterDoneRedirectURL_SampleXXX"
+    }
+  ]
+}

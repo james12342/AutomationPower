@@ -1,0 +1,92 @@
+{"AutoNames":
+	[
+	 {
+        "ID": "0", 
+        "CategoryLevel1Name":"DO Nothing",
+        "CategoryLevel2Name": "DO Nothing",
+		"CategoryLevel3Name": "DO Nothing",
+		"FunctionName": "No Action |NON",
+        "TabName": "tabPage1"
+    },
+    {
+        "ID": "1",  
+		 "CategoryLevel1Name":"Web Operation",
+        "CategoryLevel2Name": "Base Operation",
+		"CategoryLevel3Name": "Base Operation",
+        "AutoName": "Send Value",
+        "TabName": "tabPage1"
+    },
+	 {
+        "ID": "2",  
+		 "CategoryLevel1Name":"Web Operation",
+        "CategoryLevel2Name": "Base Operation",
+		"CategoryLevel3Name": "Base Operation",
+        "AutoName": "Data Scraper",
+        "TabName": "tabPage2"
+    },
+
+	
+	 {
+        "ID": "7",  
+		 "CategoryLevel1Name":"Windows Key",
+        "CategoryLevel2Name": "Base Operation",
+		"CategoryLevel3Name": "Base Operation",
+        "AutoName": "Send Key",
+        "TabName": "tabPage10"
+    },
+	 {
+        "ID": "8",  
+		 "CategoryLevel1Name":"FTP",
+        "CategoryLevel2Name": "Base Operation",
+		"CategoryLevel3Name": "Base Operation",
+        "AutoName": "FTP File Download",
+        "TabName": "tabPage7"
+    },
+	 {
+        "ID": "9",  
+		 "CategoryLevel1Name":"FTP",
+        "CategoryLevel2Name": "Base Operation",
+		"CategoryLevel3Name": "Base Operation",
+        "AutoName": "FTP File Upload",
+        "TabName": "tabPage8"
+    }
+	,
+	 {
+        "ID": "10",  
+		 "CategoryLevel1Name":"Message",
+        "CategoryLevel2Name": "Outgoing",
+		"CategoryLevel3Name": "Email",
+        "AutoName": "Send Email",
+        "TabName": "tabPage9"
+    }
+	,
+	{
+        "ID": "11",  
+		 "CategoryLevel1Name":"Message",
+        "CategoryLevel2Name": "Outgoing",
+		"CategoryLevel3Name": "SMS",
+        "AutoName": "Send SMS",
+        "TabName": "tabPage9"
+    }
+	,
+	 {
+        "ID": "11",  
+		 "CategoryLevel1Name":"Image",
+        "CategoryLevel2Name": "Screen Image",
+		"CategoryLevel3Name": "Detect Image",
+        "AutoName": "Click Image",
+        "TabName": "tabPage10"
+    }
+	,
+	 {
+        "ID": "12",  
+		 "CategoryLevel1Name":"Socal Medias",
+        "CategoryLevel2Name": "Facebook",
+		"CategoryLevel3Name": "Facebook ADS",
+        "AutoName": "Post ADS",
+        "TabName": "tabPage10"
+    }
+	
+    ]
+	
+}

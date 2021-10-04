@@ -1,0 +1,24 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+ 
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"True",
+	  "NavigateURL":"https://apps.commercehub.com/account/login?service=https%3A%2F%2Fdsm.commercehub.com%2Fdsm%2Fshiro-cas",	 
+	  "Action":"Send Value",
+	  "isDynamicElementXPath":"",
+	  "DynamicElementTagName":"",
+	  "DynamicElementAttributeName":"",
+	  "DynamicElementAttributeValue1":"",
+	  "DynamicElementAttributeValue2":"",
+      "ElementXPath":"/html[1]/body[1]/div[2]/div[2]/div[1]/div[3]/div[2]/form[1]/label[1]/input[1]",
+	  "SendValue":"majestichome",
+	  "AfterDoneWaitSeconds":"1"
+    }
+  ]
+}

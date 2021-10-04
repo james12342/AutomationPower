@@ -1,0 +1,83 @@
+{"AutoNames":
+	[
+	 {
+        "ID": "0", 
+        "Category":"NON",
+        "AutoName": "No Action |NON",
+        "TabName": "tabPage1"
+    },
+    {
+        "ID": "1",  
+        "AutoName": "Send Value |SEL",
+        "TabName": "tabPage1"
+    },
+	 {
+        "ID": "2",  
+        "AutoName": "Data Scraper |SEL",
+        "TabName": "tabPage2"
+    },
+	 {
+        "ID": "3",  
+        "AutoName": "Get a Value |SEL",
+        "TabName": "tabPage3"
+    },
+	 {
+        "ID": "4",  
+        "AutoName": "Loop And Get Values |SEL",
+        "TabName": "tabPage4"
+    },
+	 {
+        "ID": "5",  
+        "AutoName": "Go To Next Page |SEL",
+        "TabName": "tabPage5"
+    },
+	 {
+        "ID": "6",  
+        "AutoName": "Generate Order To File |DOC",
+        "TabName": "tabPage6"
+    }
+	,
+	 {
+        "ID": "7",  
+        "AutoName": "Send Key |KEY",
+        "TabName": "tabPage10"
+    },
+	 {
+        "ID": "8",  
+        "AutoName": "FTP File Download |FTP",
+        "TabName": "tabPage7"
+    },
+	 {
+        "ID": "9",  
+        "AutoName": "FTP File Upload |FTP",
+        "TabName": "tabPage8"
+    }
+	,
+	 {
+        "ID": "10",  
+        "AutoName": "Send Email |EMA",
+        "TabName": "tabPage9"
+    }
+	,
+	 {
+        "ID": "11",  
+        "AutoName": "Click Image |IMG",
+        "TabName": "tabPage10"
+    }
+	,
+	 {
+        "ID": "12",  
+        "AutoName": "Send SMS |SMS",
+        "TabName": "tabPage10"
+    }
+	,
+	
+	 {
+        "ID": "13",  
+        "AutoName": "Social Media Posting |SOC",
+        "TabName": "tabPage10"
+    }
+	
+    ]
+	
+}

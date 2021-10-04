@@ -1,0 +1,24 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"FunctionDetail_isNavigateURL_SampleXXX",
+	  "NavigateURL":"https://portal.logicbroker.com/",	 
+	  "Action":"Click Button",
+	  "isDynamicElementXPath":"",
+	  "DynamicElementTagName":"",
+	  "DynamicElementAttributeName":"",
+	  "DynamicElementAttributeValue1":"",
+	  "DynamicElementAttributeValue2":"",
+      "ElementXPath":"//*[@id='root']/div/div[1]/div[3]/div/div/div[1]/div/div/div[3]/div/div/button[5]/span[1]/div",
+	  "SendValue":"FunctionDetail_SendValue_SampleXXX",
+	  "AfterDoneWaitSeconds":"2",
+	  "AfterDoneRedirectURL":""
+    }
+  ]
+}

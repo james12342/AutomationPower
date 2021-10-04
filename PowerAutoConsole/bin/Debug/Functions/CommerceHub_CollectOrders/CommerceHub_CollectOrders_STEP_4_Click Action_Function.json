@@ -1,0 +1,24 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"False",
+	  "NavigateURL":"",	 
+	  "Action":"Click Button",
+	  "isDynamicElementXPath":"",
+	  "DynamicElementTagName":"FunctionDetail_DynamicElementTagName_SampleXXX",
+	  "DynamicElementAttributeName":"FunctionDetail_DynamicElementAttributeName_SampleXXX",
+	  "DynamicElementAttributeValue":"FunctionDetail_DynamicElementAttributeValue_SampleXXX",
+	  "DynamicElementTypeName":"",
+	  "DynamicElementValue":"",
+      "ElementXPath":"//*[@id='t1']/tbody/tr/td[2]/table/tbody/tr/td[2]",
+	  "SendValue":"FunctionDetail_SendValue_SampleXXX",
+	  "AfterDoneWaitSeconds":"3"
+    }
+  ]
+}

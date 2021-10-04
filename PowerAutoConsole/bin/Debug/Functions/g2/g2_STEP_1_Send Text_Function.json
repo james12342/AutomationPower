@@ -1,0 +1,18 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"True",
+	  "NavigateURL":"https://www.google.com/?gws_rd=ssl#spf=1619470965960",	 
+	  "Action":"Send Value",
+      "ElementXPath":"/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]",
+	  "SendValue":"hainan island",
+	  "AfterDoneWaitSeconds":"2"
+    }
+  ]
+}

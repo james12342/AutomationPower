@@ -1,0 +1,18 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"True",
+	  "NavigateURL":"https://facebook.com/",	 
+	  "Action":"Send Value",
+      "ElementXPath":"//*[@id='email']",
+	  "SendValue":"6263833666",
+	  "AfterDoneWaitSeconds":"3"
+    }
+  ]
+}

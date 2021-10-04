@@ -1,0 +1,14 @@
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\bin\Debug\AutoGetRedPackages.exe.config
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\bin\Debug\AutoGetRedPackages.exe
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\bin\Debug\AutoGetRedPackages.pdb
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\bin\Debug\Newtonsoft.Json.dll
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\bin\Debug\Sikuli4Net.dll
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\bin\Debug\Newtonsoft.Json.xml
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\obj\Debug\AutoGetRedPackages.csprojAssemblyReference.cache
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\obj\Debug\AutoGetRedPackages.Form1.resources
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\obj\Debug\AutoGetRedPackages.Properties.Resources.resources
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\obj\Debug\AutoGetRedPackages.csproj.GenerateResource.cache
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\obj\Debug\AutoGetRedPackages.csproj.CoreCompileInputs.cache
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\obj\Debug\AutoGetRedPackages.csproj.CopyComplete
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\obj\Debug\AutoGetRedPackages.exe
+C:\work\ScanDirectory_6_13_2018\HTMLElementSelect\AutoGetRedPackages\obj\Debug\AutoGetRedPackages.pdb

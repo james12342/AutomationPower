@@ -1,0 +1,56 @@
+{
+"Web": 
+{
+	"Actions":
+	[
+	"Send Text",
+	"Click Action",
+	"Data Scraper",
+	"Go Page Bottom"
+	]
+	
+},
+"Message": 
+{
+    "SMS": ["Send SMS"],
+	"EMAIL":["Send EMAIL"]
+	
+},
+"Operation System": 
+{
+    "Key Action":"Send Key",
+	"Image Action":["Click Imgae","Send Text Image"]
+	
+	
+},
+"Documents": 
+{       
+        "CSV": [ "Edit CSV"]
+ },
+ "eCommerce":
+ {
+	 "Amazon":["Amazon Seller Central","Amazon Vendor Central"],
+	 "eBay":["eBay Marketplace"]
+	 
+ },
+ "Social Medias":
+ {
+	 "Facebook":["Facebook ADS","Facebook Digital Marketing"],
+	 "Ticktok":["Ticktok Marketing"],
+	 "Wechat":["Wechat earning money from Hongbao","Wechat Digital marketing"],
+	 "Intesgram":["Intesgram Digital maeketing"]
+	 
+ }
+ ,
+ "Shell Programs":
+ {
+	 "Start Action":"Start Program"
+ }
+  ,
+ "APIS":
+ {
+	 "Generate API":["Scraperdata to API"],
+	 "API Integration":"API Integration"
+ }
+ 
+}

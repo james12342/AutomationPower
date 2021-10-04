@@ -1,0 +1,24 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"False",
+	  "NavigateURL":"",	 
+	  "Action":"Click Button",
+	  "isDynamicElementXPath":"",
+	  "DynamicElementTagName":"",
+	  "DynamicElementAttributeName":"",
+	  "DynamicElementAttributeValue1":"",
+	  "DynamicElementAttributeValue2":"",
+      "ElementXPath":"//*[@id='rso']/div[1]/g-card/div/div/a/div/div[2]/div[2]",
+	  "SendValue":"FunctionDetail_SendValue_SampleXXX",
+	  "AfterDoneWaitSeconds":"0",
+	  "AfterDoneRedirectURL":""
+    }
+  ]
+}

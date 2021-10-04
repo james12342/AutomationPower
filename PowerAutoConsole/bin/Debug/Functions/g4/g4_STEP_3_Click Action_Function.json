@@ -1,0 +1,18 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"False",
+	  "NavigateURL":"https://www.google.com/search?q=test&source=hp&ei=2TSHYLKFF7aV0PEP19SI-AI&iflsig=AINFCbYAAAAAYIdC6enpwc5O4AediYAoAYwkHVpFRXeP&oq=test&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAELEDMgUIABCxAzIICAAQsQMQgwEyBQgAELEDMgIIADIFCAAQsQMyBQgAELEDMggIABCxAxCDATICCAAyBQgAELEDOgoIABDqAhC0AhBDOgoILhDqAhC0AhBDOgsILhCxAxDHARCjAjoICC4QsQMQgwE6DgguELEDEMcBEKMCEJMCOgUILhCxA1DBD1jYFGC7HGgBcAB4AIABWYgBxQKSAQE0mAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz&ved=0ahUKEwjy1aex8ZzwAhW2CjQIHVcqAi8Q4dUDCA4&uact=5#spf=1619473627936",	 
+	  "Action":"Send Value",
+      "ElementXPath":"/html[1]/body[1]/div[7]/div[1]/div[9]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h3[1]",
+	  "SendValue":"FunctionDetail_SendValue_SampleXXX",
+	  "AfterDoneWaitSeconds":"0"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "AutoName": "country",
+  "Description": "",
+  "StartEndpointURL": "https://www.worldometers.info/geography/alphabetical-list-of-countries/",
+  "StepList": [
+    {
+      "StepID": 1,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "FID_1_N_country_F_Data_Scraper",
+        "FunctionName": "F_Data_Scraper_N_country_FID_1",
+        "FunctionCategoryID": "",
+        "FunctionCategoryName": "",
+        "FunctionExecuteJsonLocation": "country_STEP_1_Data Scraper_Function.json"
+      }
+    },
+     {
+      "StepID": 2,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "FunctionID_SampleXXX_StepID2",
+        "FunctionName": "FunctionName_SampleXXX_StepID2",
+        "FunctionCategoryID": "FunctionCategoryID_SampleXXX_StepID2",
+        "FunctionCategoryName": "FunctionCategoryName_SampleXXX_StepID2",
+        "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID2"
+      }
+    },
+	 {
+      "StepID": 3,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "FunctionID_SampleXXX_StepID3",
+        "FunctionName": "FunctionName_SampleXXX_StepID3",
+        "FunctionCategoryID": "FunctionCategoryID_SampleXXX_StepID3",
+        "FunctionCategoryName": "FunctionCategoryName_SampleXXX_StepID3",
+        "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID3"
+      }
+    },
+	 {
+      "StepID": 4,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "FunctionID_SampleXXX_StepID4",
+        "FunctionName": "FunctionName_SampleXXX_StepID4",
+        "FunctionCategoryID": "FunctionCategoryID_SampleXXX_StepID4",
+        "FunctionCategoryName": "FunctionCategoryName_SampleXXX_StepID4",
+        "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID4"
+      }
+    },
+	 {
+      "StepID": 5,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "FunctionID_SampleXXX_StepID5",
+        "FunctionName": "FunctionName_SampleXXX_StepID5",
+        "FunctionCategoryID": "FunctionCategoryID_SampleXXX_StepID5",
+        "FunctionCategoryName": "FunctionCategoryName_SampleXXX_StepID5",
+        "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID5"
+      }
+    },
+	 {
+      "StepID": 6,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "FunctionID_SampleXXX_StepID6",
+        "FunctionName": "FunctionName_SampleXXX_StepID6",
+        "FunctionCategoryID": "FunctionCategoryID_SampleXXX_StepID6",
+        "FunctionCategoryName": "FunctionCategoryName_SampleXXX_StepID6",
+        "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID6"
+      }
+    },
+	 {
+      "StepID": 7,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "FunctionID_SampleXXX_StepID7",
+        "FunctionName": "FunctionName_SampleXXX_StepID7",
+        "FunctionCategoryID": "FunctionCategoryID_SampleXXX_StepID7",
+        "FunctionCategoryName": "FunctionCategoryName_SampleXXX_StepID7",
+        "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID7"
+      }
+    
+    },
+	 {
+      "StepID": 8,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "FunctionID_SampleXXX_StepID8",
+        "FunctionName": "FunctionName_SampleXXX_StepID8",
+        "FunctionCategoryID": "FunctionCategoryID_SampleXXX_StepID8",
+        "FunctionCategoryName": "FunctionCategoryName_SampleXXX_StepID8",
+        "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID8"
+      }
+    },
+	 {
+      "StepID": 9,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "FunctionID_SampleXXX_StepID9",
+        "FunctionName": "FunctionName_SampleXXX_StepID9",
+        "FunctionCategoryID": "FunctionCategoryID_SampleXXX_StepID9",
+        "FunctionCategoryName": "FunctionCategoryName_SampleXXX_StepID9",
+        "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID9"
+      }
+    },
+	 {
+      "StepID": 10,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "10FunctionID_SampleXXX_StepID",
+        "FunctionName": "10FunctionName_SampleXXX_StepID",
+        "FunctionCategoryID": "10FunctionCategoryID_SampleXXX_StepID",
+        "FunctionCategoryName": "10FunctionCategoryName_SampleXXX_StepID",
+        "FunctionExecuteJsonLocation": "10FunctionExecuteJsonLocation_SampleXXX_StepID"
+      }
+    },
+	 {
+      "StepID": 11,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "11FunctionID_SampleXXX_StepID",
+        "FunctionName": "11FunctionName_SampleXXX_StepID",
+        "FunctionCategoryID": "11FunctionCategoryID_SampleXXX_StepID",
+        "FunctionCategoryName": "11FunctionCategoryName_SampleXXX_StepID",
+        "FunctionExecuteJsonLocation": "11FunctionExecuteJsonLocation_SampleXXX_StepID"
+      }
+    },
+	 {
+      "StepID": 12,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "12FunctionID_SampleXXX_StepID",
+        "FunctionName": "12FunctionName_SampleXXX_StepID",
+        "FunctionCategoryID": "12FunctionCategoryID_SampleXXX_StepID",
+        "FunctionCategoryName": "12FunctionCategoryName_SampleXXX_StepID",
+        "FunctionExecuteJsonLocation": "12FunctionExecuteJsonLocation_SampleXXX_StepID"
+      }
+    },
+	 {
+      "StepID": 13,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "13FunctionID_SampleXXX_StepID",
+        "FunctionName": "13FunctionName_SampleXXX_StepID",
+        "FunctionCategoryID": "13unctionCategoryID_SampleXXX_StepID",
+        "FunctionCategoryName": "13FunctionCategoryName_SampleXXX_StepID",
+        "FunctionExecuteJsonLocation": "13FunctionExecuteJsonLocation_SampleXXX_StepID"
+      }
+    },
+	 {
+      "StepID": 14,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "14FunctionID_SampleXXX_StepID",
+        "FunctionName": "14FunctionName_SampleXXX_StepID",
+        "FunctionCategoryID": "14FunctionCategoryID_SampleXXX_StepID",
+        "FunctionCategoryName": "14FunctionCategoryName_SampleXXX_StepID",
+        "FunctionExecuteJsonLocation": "14FunctionExecuteJsonLocation_SampleXXX_StepID"
+      }
+    },
+	 {
+      "StepID": 15,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "15FunctionID_SampleXXX_StepID",
+        "FunctionName": "15FunctionName_SampleXXX_StepID",
+        "FunctionCategoryID": "15FunctionCategoryID_SampleXXX_StepID",
+        "FunctionCategoryName": "15FunctionCategoryName_SampleXXX_StepID",
+        "FunctionExecuteJsonLocation": "15FunctionExecuteJsonLocation_SampleXXX_StepID"
+      }
+    },
+	{
+      "StepID": 16,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "16FunctionID_SampleXXX_StepID",
+        "FunctionName": "16FunctionName_SampleXXX_StepID",
+        "FunctionCategoryID": "16FunctionCategoryID_SampleXXX_StepID",
+        "FunctionCategoryName": "16FunctionCategoryName_SampleXXX_StepID",
+        "FunctionExecuteJsonLocation": "16FunctionExecuteJsonLocation_SampleXXX_StepID"
+      }
+    },
+	{
+      "StepID": 17,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "17FunctionID_SampleXXX_StepID",
+        "FunctionName": "17FunctionName_SampleXXX_StepID",
+        "FunctionCategoryID": "17FunctionCategoryID_SampleXXX_StepID",
+        "FunctionCategoryName": "17FunctionCategoryName_SampleXXX_StepID",
+        "FunctionExecuteJsonLocation": "17FunctionExecuteJsonLocation_SampleXXX_StepID"
+      }
+    },
+	{
+      "StepID": 18,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "18FunctionID_SampleXXX_StepID",
+        "FunctionName": "18FunctionName_SampleXXX_StepID",
+        "FunctionCategoryID": "18FunctionCategoryID_SampleXXX_StepID",
+        "FunctionCategoryName": "18FunctionCategoryName_SampleXXX_StepID",
+        "FunctionExecuteJsonLocation": "18FunctionExecuteJsonLocation_SampleXXX_StepID"
+      }
+    },
+	{
+      "StepID": 19,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "19FunctionID_SampleXXX_StepID",
+        "FunctionName": "19FunctionName_SampleXXX_StepID",
+        "FunctionCategoryID": "19FunctionCategoryID_SampleXXX_StepID",
+        "FunctionCategoryName": "19FunctionCategoryName_SampleXXX_StepID",
+        "FunctionExecuteJsonLocation": "19FunctionExecuteJsonLocation_SampleXXX_StepID"
+      }
+    },
+	{
+      "StepID": 20,
+      "FunctionDetail": 
+	  {
+        "FunctionID": "20FunctionID_SampleXXX_StepID",
+        "FunctionName": "20FunctionName_SampleXXX_StepID",
+        "FunctionCategoryID": "20FunctionCategoryID_SampleXXX_StepID",
+        "FunctionCategoryName": "20FunctionCategoryName_SampleXXX_StepID",
+        "FunctionExecuteJsonLocation": "20FunctionExecuteJsonLocation_SampleXXX_StepID"
+      }
+    }
+  ]
+}

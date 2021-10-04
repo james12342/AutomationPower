@@ -1,0 +1,89 @@
+{"AutoNames":
+	[	 
+    {
+        "ID": "1",  
+        "FunctionName": "Send Text",
+		"Category":"Web",
+		"FunctionTemplateFile":"FunctionTemplate_SendValue_SEL.json",
+        "TabName": "tabPage1"
+    },
+	 {
+        "ID": "2",  
+        "FunctionName": "Click Action",
+		"Category":"Web",
+		"FunctionTemplateFile":"FunctionTemplate_ClickButton_SEL.json",
+        "TabName": "tabPage2"
+    },
+	 {
+        "ID": "3",  
+        "FunctionName": "Data Scraper",
+		"Category":"Web",
+		"FunctionTemplateFile":"FunctionTemplate_DataScaper_SEL.json",
+        "TabName": "tabPage3"
+    },
+	
+	 {
+        "ID": "4",  
+        "FunctionName": "Send Key",
+		"Category":"Windows Key",
+		"FunctionTemplateFile":"FunctionTemplate_SendKeys_KEY.json",
+        "TabName": "tabPage10"
+    },
+	 {
+        "ID": "5",  
+        "FunctionName": "FTP File Download |FTP",
+		"Category":"Documents",
+		"FunctionTemplateFile":"FunctionTemplate_SendValue_SEL.json",
+        "TabName": "tabPage7"
+    },
+	 {
+        "ID": "6",  
+        "FunctionName": "FTP File Upload |FTP",
+		"Category":"Documents",
+		"FunctionTemplateFile":"FunctionTemplate_SendValue_SEL.json",
+        "TabName": "tabPage8"
+    }
+	,
+	 {
+        "ID": "7",  
+        "FunctionName": "Send Email",
+		"Category":"Message",
+		"FunctionTemplateFile":"FunctionTemplate_SendValue_SEL.json",
+        "TabName": "tabPage9"
+    }
+	,
+	 {
+        "ID": "8",  
+        "FunctionName": "Click Image",
+		"Category":"Image",
+		"FunctionTemplateFile":"FunctionTemplate_SendValue_SEL.json",
+        "TabName": "tabPage10"
+    }
+	,
+	 {
+        "ID": "9",  
+        "FunctionName": "Send SMS",
+		"Category":"Message",
+		"FunctionTemplateFile":"FunctionTemplate_SendValue_SEL.json",
+        "TabName": "tabPage10"
+    }
+	,
+	 {
+        "ID": "10",  
+        "FunctionName": "Facebook ADS",
+		"Category":"Social Medias",
+		"FunctionTemplateFile":"FunctionTemplate_SendValue_SEL.json",
+        "TabName": "tabPage10"
+    }
+	,
+	 {
+        "ID": "11",  
+        "FunctionName": "Go Page Bottom",
+		"Category":"Web",
+		"FunctionTemplateFile":"FunctionTemplate_SendValue_SEL.json",
+        "TabName": "tabPage10"
+    }
+	
+    ]
+	
+}

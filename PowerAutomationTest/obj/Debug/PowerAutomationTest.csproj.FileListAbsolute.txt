@@ -1,0 +1,13 @@
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\bin\Debug\PowerAutomationTest.exe.config
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\bin\Debug\PowerAutomationTest.exe
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\bin\Debug\PowerAutomationTest.pdb
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\bin\Debug\WebDriver.dll
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\bin\Debug\WebDriver.xml
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\obj\Debug\PowerAutomationTest.csprojAssemblyReference.cache
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\obj\Debug\PowerAutomationTest.Form1.resources
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\obj\Debug\PowerAutomationTest.Properties.Resources.resources
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\obj\Debug\PowerAutomationTest.csproj.GenerateResource.cache
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\obj\Debug\PowerAutomationTest.csproj.CoreCompileInputs.cache
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\obj\Debug\PowerAutomationTest.csproj.CopyComplete
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\obj\Debug\PowerAutomationTest.exe
+C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\PowerAutomationTest\obj\Debug\PowerAutomationTest.pdb

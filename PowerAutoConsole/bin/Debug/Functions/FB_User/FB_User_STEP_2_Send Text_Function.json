@@ -1,0 +1,18 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"FunctionDetail_isNavigateURL_SampleXXX",
+	  "NavigateURL":"https://facebook.com/",	 
+	  "Action":"Send Value",
+      "ElementXPath":"//*[@id='pass']",
+	  "SendValue":"kentxy_01",
+	  "AfterDoneWaitSeconds":"3"
+    }
+  ]
+}

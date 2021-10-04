@@ -1,0 +1,18 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"FunctionDetail_isNavigateURL_SampleXXX",
+	  "NavigateURL":"https://covtxhou01-22.covalentworks.com/MyB2B_Ver1/weblogin.aspx?ReturnUrl=%2fMyB2B_Ver1%2fPO%2fSearch.aspx%3fSenderID%3d08925485USSM%26ReceiverID%3d01933339053",	 
+	  "Action":"Click Button",
+      "ElementXPath":"//*[@id='ddlSearch']",
+	  "SendValue":"FunctionDetail_SendValue_SampleXXX",
+	  "AfterDoneWaitSeconds":"2"
+    }
+  ]
+}

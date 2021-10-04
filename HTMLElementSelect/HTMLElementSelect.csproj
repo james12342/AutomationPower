@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3BA4A0ED-5CC2-4658-BBAF-18A8677629F6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HTMLElementSelect</RootNamespace>
+    <AssemblyName>HTMLElementSelect</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Crainiate.Diagramming.Forms, Version=5.0.7779.21263, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Crainiate.Diagramming.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Dalssoft.DiagramNet, Version=0.4.0.36975, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Dalssoft.DiagramNet.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.11.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.11.32\lib\Net35\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="LiteDB, Version=5.0.10.0, Culture=neutral, PublicKeyToken=4ee40123013c9f27, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiteDB.5.0.10\lib\net45\LiteDB.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\microsoft.mshtml\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenDiagram.Diagramming, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\OpenDiagram.Diagramming.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\net35\WebDriver.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_AutoDigram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AutoDigram.Designer.cs">
+      <DependentUpon>frm_AutoDigram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Automation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Automation.Designer.cs">
+      <DependentUpon>frm_Automation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DataScraper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DataScraper.Designer.cs">
+      <DependentUpon>frm_DataScraper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DiagramAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DiagramAction.Designer.cs">
+      <DependentUpon>frm_DiagramAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Function_Sel_SendText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Function_Sel_SendText.Designer.cs">
+      <DependentUpon>frm_Function_Sel_SendText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ImportScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ImportScript.Designer.cs">
+      <DependentUpon>frm_ImportScript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PageTopBottom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PageTopBottom.Designer.cs">
+      <DependentUpon>frm_PageTopBottom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Power_Automation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Power_Automation.Designer.cs">
+      <DependentUpon>frm_Power_Automation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Step.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Step.Designer.cs">
+      <DependentUpon>frm_Step.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Functions\csv.cs" />
+    <Compile Include="Functions\Datagridview_Progressbar.cs" />
+    <Compile Include="Functions\LiteDB_Action.cs" />
+    <Compile Include="Objects\Object_AutomationInfo.cs" />
+    <Compile Include="Objects\Object_AutoStepsJson.cs" />
+    <Compile Include="Objects\Object_FunctionDetail_DataScraper.cs" />
+    <Compile Include="Objects\Object_Lite_FunctionSteps.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_AutoDigram.resx">
+      <DependentUpon>frm_AutoDigram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Automation.resx">
+      <DependentUpon>frm_Automation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DataScraper.resx">
+      <DependentUpon>frm_DataScraper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DiagramAction.resx">
+      <DependentUpon>frm_DiagramAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Function_Sel_SendText.resx">
+      <DependentUpon>frm_Function_Sel_SendText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ImportScript.resx">
+      <DependentUpon>frm_ImportScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PageTopBottom.resx">
+      <DependentUpon>frm_PageTopBottom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Power_Automation.resx">
+      <DependentUpon>frm_Power_Automation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Step.resx">
+      <DependentUpon>frm_Step.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Resource\List.bmp" />
+    <None Include="bin\Debug\Resource\OK.bmp" />
+    <Content Include="Logo.ico" />
+    <Content Include="Resource\3d bar chart.bmp" />
+    <Content Include="Resource\Abort.bmp" />
+    <Content Include="Resource\About.bmp" />
+    <Content Include="Resource\Add.bmp" />
+    <Content Include="Resource\Anchor.bmp" />
+    <Content Include="Resource\Application.bmp" />
+    <Content Include="Resource\Apply.bmp" />
+    <Content Include="Resource\Back.bmp" />
+    <Content Include="Resource\Bad mark.bmp" />
+    <Content Include="Resource\Blue key.bmp" />
+    <Content Include="Resource\Blue tag.bmp" />
+    <Content Include="Resource\Boss.bmp" />
+    <Content Include="Resource\Bottom.bmp" />
+    <Content Include="Resource\Calculator.bmp" />
+    <Content Include="Resource\Calendar.bmp" />
+    <Content Include="Resource\Car key.bmp" />
+    <Content Include="Resource\CD.bmp" />
+    <Content Include="Resource\Clipboard.bmp" />
+    <Content Include="Resource\Clock.bmp" />
+    <Content Include="Resource\Close.bmp" />
+    <Content Include="Resource\Compass.bmp" />
+    <Content Include="Resource\Component.bmp" />
+    <Content Include="Resource\Copy.bmp" />
+    <Content Include="Resource\Create.bmp" />
+    <Content Include="Resource\Cut.bmp" />
+    <Content Include="Resource\Danger.bmp" />
+    <Content Include="Resource\Database.bmp" />
+    <Content Include="Resource\Delete.bmp" />
+    <Content Include="Resource\Delivery.bmp" />
+    <Content Include="Resource\diagram.bmp" />
+    <Content Include="Resource\Dial.bmp" />
+    <Content Include="Resource\Disaster.bmp" />
+    <Content Include="Resource\Dollar.bmp" />
+    <Content Include="Resource\Down.bmp" />
+    <Content Include="Resource\Download.bmp" />
+    <Content Include="Resource\E-mail.bmp" />
+    <Content Include="Resource\Eject.bmp" />
+    <Content Include="Resource\Erase.bmp" />
+    <Content Include="Resource\Error.bmp" />
+    <Content Include="Resource\Euro.bmp" />
+    <Content Include="Resource\Exit.bmp" />
+    <Content Include="Resource\Fall.bmp" />
+    <Content Include="Resource\Fast-forward.bmp" />
+    <Content Include="Resource\Favourites.bmp" />
+    <Content Include="Resource\Female.bmp" />
+    <Content Include="Resource\Filter.bmp" />
+    <Content Include="Resource\Find.bmp" />
+    <Content Include="Resource\First record.bmp" />
+    <Content Include="Resource\First.bmp" />
+    <Content Include="Resource\Flag.bmp" />
+    <Content Include="Resource\flowchart.bmp" />
+    <Content Include="Resource\Folder.bmp" />
+    <Content Include="Resource\Forbidden.bmp" />
+    <Content Include="Resource\Forward.bmp" />
+    <Content Include="Resource\Free bsd.bmp" />
+    <Content Include="Resource\Go back.bmp" />
+    <Content Include="Resource\Go forward.bmp" />
+    <Content Include="Resource\Go.bmp" />
+    <Content Include="Resource\Good-mark.bmp" />
+    <Content Include="Resource\Green tag.bmp" />
+    <Content Include="Resource\Heart.bmp" />
+    <Content Include="Resource\Help book 3d.bmp" />
+    <Content Include="Resource\Help book.bmp" />
+    <Content Include="Resource\Help.bmp" />
+    <Content Include="Resource\Hint.bmp" />
+    <Content Include="Resource\Home.bmp" />
+    <Content Include="Resource\How-to.bmp" />
+    <Content Include="Resource\Hungup.bmp" />
+    <Content Include="Resource\Info.bmp" />
+    <Content Include="Resource\Key.bmp" />
+    <Content Include="Resource\Last recor.bmp" />
+    <Content Include="Resource\Last.bmp" />
+    <Content Include="Resource\Left-right.bmp" />
+    <Content Include="Resource\Lightning.bmp" />
+    <Content Include="Resource\Linux.bmp" />
+    <Content Include="Resource\List.bmp" />
+    <Content Include="Resource\Load.bmp" />
+    <Content Include="Resource\Lock.bmp" />
+    <Content Include="Resource\Low rating.bmp" />
+    <Content Include="Resource\Mail.bmp" />
+    <Content Include="Resource\Male.bmp" />
+    <Content Include="Resource\Medium rating.bmp" />
+    <Content Include="Resource\Message.bmp" />
+    <Content Include="Resource\Mobile-phone.bmp" />
+    <Content Include="Resource\Modify.bmp" />
+    <Content Include="Resource\Movie.bmp" />
+    <Content Include="Resource\Music.bmp" />
+    <Content Include="Resource\New document.bmp" />
+    <Content Include="Resource\New.bmp" />
+    <Content Include="Resource\Next track.bmp" />
+    <Content Include="Resource\Next.bmp" />
+    <Content Include="Resource\No-entry.bmp" />
+    <Content Include="Resource\No.bmp" />
+    <Content Include="Resource\Notes.bmp" />
+    <Content Include="Resource\OK.bmp" />
+    <Content Include="Resource\overview.bmp" />
+    <Content Include="Resource\palette.bmp" />
+    <Content Include="Resource\Paste.bmp" />
+    <Content Include="Resource\Pause.bmp" />
+    <Content Include="Resource\People.bmp" />
+    <Content Include="Resource\Person.bmp" />
+    <Content Include="Resource\Phone number.bmp" />
+    <Content Include="Resource\Pie chart.bmp" />
+    <Content Include="Resource\Pinion.bmp" />
+    <Content Include="Resource\Play-music.bmp" />
+    <Content Include="Resource\Play.bmp" />
+    <Content Include="Resource\Playback.bmp" />
+    <Content Include="Resource\Previous record.bmp" />
+    <Content Include="Resource\Previous.bmp" />
+    <Content Include="Resource\Problem.bmp" />
+    <Content Include="Resource\Question.bmp" />
+    <Content Include="Resource\Raise.bmp" />
+    <Content Include="Resource\Record.bmp" />
+    <Content Include="Resource\Red mark.bmp" />
+    <Content Include="Resource\Red star.bmp" />
+    <Content Include="Resource\Red tag.bmp" />
+    <Content Include="Resource\Redo.bmp" />
+    <Content Include="Resource\Refresh.bmp" />
+    <Content Include="Resource\Remove.bmp" />
+    <Content Include="Resource\Repair.bmp" />
+    <Content Include="Resource\Report.bmp" />
+    <Content Include="Resource\Retort.bmp" />
+    <Content Include="Resource\Rewind.bmp" />
+    <Content Include="Resource\ruler.bmp" />
+    <Content Include="Resource\Sad.bmp" />
+    <Content Include="Resource\Save.bmp" />
+    <Content Include="Resource\Search.bmp" />
+    <Content Include="Resource\Shopping cart.bmp" />
+    <Content Include="Resource\Smile.bmp" />
+    <Content Include="Resource\Sound.bmp" />
+    <Content Include="Resource\Stop sign.bmp" />
+    <Content Include="Resource\Stop.bmp" />
+    <Content Include="Resource\Sync.bmp" />
+    <Content Include="Resource\Table.bmp" />
+    <Content Include="Resource\Target.bmp" />
+    <Content Include="Resource\Taxi.bmp" />
+    <Content Include="Resource\Terminate.bmp" />
+    <Content Include="Resource\Text preview.bmp" />
+    <Content Include="Resource\Text.bmp" />
+    <Content Include="Resource\Thumbs down.bmp" />
+    <Content Include="Resource\Thumbs up.bmp" />
+    <Content Include="Resource\Top.bmp" />
+    <Content Include="Resource\Turn off.bmp" />
+    <Content Include="Resource\Undo.bmp" />
+    <Content Include="Resource\Unlock.bmp" />
+    <Content Include="Resource\Up-down.bmp" />
+    <Content Include="Resource\Up.bmp" />
+    <Content Include="Resource\Update.bmp" />
+    <Content Include="Resource\Upload.bmp" />
+    <Content Include="Resource\User group.bmp" />
+    <Content Include="Resource\view.bmp" />
+    <Content Include="Resource\Warning.bmp" />
+    <Content Include="Resource\Wrench.bmp" />
+    <Content Include="Resource\Yes.bmp" />
+    <Content Include="Resource\Zoom.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.71.0.3578.137\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.71.0.3578.137\build\Selenium.WebDriver.ChromeDriver.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.71.0.3578.137\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.71.0.3578.137\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

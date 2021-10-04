@@ -1,0 +1,24 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"FunctionDetail_isNavigateURL_SampleXXX",
+	  "NavigateURL":"FunctionDetail_NavigateURL_SampleXXX",	 
+	  "Action":"GoPage Bottom",
+	  "isDynamicElementXPath":"False",
+	  "DynamicElementTagName":"FunctionDetail_DynamicElementTagName_SampleXXX",
+	  "DynamicElementAttributeName":"FunctionDetail_DynamicElementAttributeName_SampleXXX",
+	  "DynamicElementAttributeValue1":"FunctionDetail_DynamicElementAttributeValue1_SampleXXX",
+	  "DynamicElementAttributeValue2":"FunctionDetail_DynamicElementAttributeValue2_SampleXXX",
+      "ElementXPath":"FunctionDetail_ElementXPath_SampleXXX",
+	  "SendValue":"FunctionDetail_SendValue_SampleXXX",
+	  "AfterDoneWaitSeconds":"FunctionDetail_AfterDoneWaitSeconds_SampleXXX",
+	  "AfterDoneRedirectURL":"FunctionDetail_AfterDoneRedirectURL_SampleXXX"
+    }
+  ]
+}

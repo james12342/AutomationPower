@@ -1,0 +1,22 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+ 
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"False",
+	  "NavigateURL":"",	 
+	  "Action":"Send Value",
+	  "isDynamicElementXPath":"True",
+	  "DynamicElementTypeName":"TagName",
+	  "DynamicElementValue":"login",
+      "ElementXPath":"element1",
+	  "SendValue":"rrrrr",
+	  "AfterDoneWaitSeconds":"0"
+    }
+  ]
+}

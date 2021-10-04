@@ -1,0 +1,25 @@
+{
+  "FunctionID": "FunctionID_SampleXXX_StepID1",
+  "FunctionName": "FunctionName_SampleXXX_StepID1",
+  "FunctionCategoryID": "AutoCate_SEL_01",
+  "FunctionCategoryName": "SEL",
+  "FunctionExecuteJsonLocation": "FunctionExecuteJsonLocation_SampleXXX_StepID1",
+ 
+  "FunctionDetail": 
+  [
+    {
+	  "isNavigateURL":"True",
+	  "NavigateURL":"https://www.google.com/?gws_rd=ssl#spf=1633157241191",	 
+	  "Action":"Send Value",
+	  "isDynamicElementXPath":"",
+	  "DynamicElementTagName":"",
+	  "DynamicElementAttributeName":"",
+	  "DynamicElementAttributeValue1":"",
+	  "DynamicElementAttributeValue2":"",
+      "ElementXPath":"/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input",
+	  "SendValue":"Covid stock",
+	  "AfterDoneWaitSeconds":"0",
+	  "AfterDoneRedirectURL":""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{"FunctionCategoryIDS":
+
+	[
+	 {
+        "FunctionCategoryID": "AutoCate_NON_00",  
+        "FunctionCategoryName": "NON"
+     },
+	 {
+        "FunctionCategoryID": "AutoCate_SEL_01",  
+        "FunctionCategoryName": "SEL"
+     },
+	 {
+        "FunctionCategoryID": "AutoCate_DOC_02",  
+        "FunctionCategoryName": "DOC"
+     },
+	 {
+        "FunctionCategoryID": "AutoCate_FTP_03",  
+        "FunctionCategoryName": "FTP"
+     },
+	 {
+        "FunctionCategoryID": "AutoCate_EMA_04",  
+        "FunctionCategoryName": "EMA"
+     },
+	 {
+        "FunctionCategoryID": "AutoCate_IMG_05",  
+        "FunctionCategoryName": "IMG"
+     },
+	 {
+        "FunctionCategoryID": "AutoCate_SMS_06",  
+        "FunctionCategoryName": "SMS"
+     },
+	 {
+        "FunctionCategoryID": "AutoCate_KEY_07",  
+        "FunctionCategoryName": "KEY"
+     }
+	
+    ]
+	
+}
