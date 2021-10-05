@@ -174,6 +174,7 @@
             this.Controls.Add(this.label46);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_Function_Sel_SendText";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Web Send Text";
             this.ResumeLayout(false);
             this.PerformLayout();

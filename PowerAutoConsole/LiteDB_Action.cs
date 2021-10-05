@@ -9,8 +9,12 @@ using static HTMLElementSelect.Objects.Object_Lite_FunctionSteps;
 
 namespace HTMLElementSelect.Functions
 {
+   
+
     public class LiteDB_Action
     {
+        public static string LiteDBPath = @"C:\work\git\AutomationPower\HTMLElementSelect\bin\Debug\PowerAutoLiteDB.db";
+        //public static string LiteDBPath = @"C:\work\HJ\AutomationPower\HTMLElementSelect\bin\Debug\PowerAutoLiteDB.db";
 
         #region "UPDATE"
         public static void UpdateAuto_Lite_MaxStep(string AutoName, int maxStep)
@@ -62,7 +66,7 @@ namespace HTMLElementSelect.Functions
         {
             //###############################  liteDB insert function steps
             List<FunctionSteps> AutoFunctionList = new List<FunctionSteps>();
-            using (var db = new LiteDatabase(@"C:\work\HJ\AutomationPower\HTMLElementSelect\bin\Debug\PowerAutoLiteDB.db"))
+            using (var db = new LiteDatabase(LiteDBPath))
             {
                 string sql = "SELECT $ FROM AutoFunctionSteps where AutoName=" + "\"" + AutoName + "\"" + " order by StepID";
                 using (var bsonReader = db.Execute(sql))
@@ -98,7 +102,7 @@ namespace HTMLElementSelect.Functions
             //###############################  liteDB search function action
             Object_FunctionActionDetail FunctionActionDetail = new Object_FunctionActionDetail();
 
-            using (var db = new LiteDatabase(@"C:\work\HJ\AutomationPower\HTMLElementSelect\bin\Debug\PowerAutoLiteDB.db"))
+            using (var db = new LiteDatabase(LiteDBPath))
             {
                 TableName = TableName.Replace("\"","");
                 AutoName = AutoName.Replace("\"", "");
@@ -113,8 +117,7 @@ namespace HTMLElementSelect.Functions
                        
 
                         output.Add(bsonReader.Current);
-                        //if (output[i]["AutoName"].IsString) 
-                        //{
+                       
                         FunctionActionDetail._id = output[i]["_id"].ToString().TrimStart('"').TrimEnd('"');
                         FunctionActionDetail.AutoName = output[i]["AutoName"].ToString().TrimStart('"').TrimEnd('"');
                         FunctionActionDetail.StepID = output[i]["StepID"].ToString().TrimStart('"').TrimEnd('"');
@@ -133,8 +136,10 @@ namespace HTMLElementSelect.Functions
                         FunctionActionDetail.FunDetail_SendValue = output[i]["FunDetail_SendValue"].ToString().TrimStart('"').TrimEnd('"');
                         FunctionActionDetail.FunDetail_AfterDoneWaitSeconds = output[i]["FunDetail_AfterDoneWaitSeconds"].ToString().TrimStart('"').TrimEnd('"');
                         FunctionActionDetail.FunDetail_AfterDoneRedirectURL = output[i]["FunDetail_AfterDoneRedirectURL"].ToString().TrimStart('"').TrimEnd('"');
+                        //send key
+                        FunctionActionDetail.FunDetail_SendKeyTimes= output[i]["FunDetail_SendKeyTimes"].ToString().TrimStart('"').TrimEnd('"');
 
-                        
+
 
                     }
                 }
@@ -149,7 +154,7 @@ namespace HTMLElementSelect.Functions
         #region "ADD"
         public static void AddNewAuto_Lite(string AutoName, string desc, string tragetFileSteps)
         {
-            using (var db = new LiteDatabase(@"C:\work\HJ\AutomationPower\HTMLElementSelect\bin\Debug\PowerAutoLiteDB.db"))
+            using (var db = new LiteDatabase(LiteDBPath))
             {
                 // Get a collection (or create, if doesn't exist)
                 var col = db.GetCollection<Object_AutomationInfo>("Automations");
@@ -187,7 +192,7 @@ namespace HTMLElementSelect.Functions
         //delete the whole automation by autoname
         public static void DeleteAuto_Lite(string AutoName)
         {
-            using (var db = new LiteDatabase(@"C:\work\HJ\AutomationPower\HTMLElementSelect\bin\Debug\PowerAutoLiteDB.db"))
+            using (var db = new LiteDatabase(LiteDBPath))
             {
                 string deleteLiteSQL_Automations = "Delete Automations  where AutoName ='" + AutoName + "'";
                 db.Execute(deleteLiteSQL_Automations);
@@ -205,7 +210,7 @@ namespace HTMLElementSelect.Functions
         }
         public static void DeleteAuto_Lite_TableEmpyAutoName(string TableName, string AutoName)
         {
-            using (var db = new LiteDatabase(@"C:\work\HJ\AutomationPower\HTMLElementSelect\bin\Debug\PowerAutoLiteDB.db"))
+            using (var db = new LiteDatabase(LiteDBPath))
             {
 
                 string deleteLiteSQL = "Delete " + TableName + "  where AutoName ='" + AutoName + "'";

@@ -153,7 +153,7 @@ namespace HTMLElementSelect
             return last;
         }
 
-        public void GetAllAutomationsList(string DirPath, string spec, DataGridView dg)
+        public void GetAllAutomationsList( DataGridView dg)
         {
             dg.Rows.Clear();
             dg.Columns.Clear();
@@ -767,7 +767,7 @@ namespace HTMLElementSelect
 
             }
             LoadFunctionsTreeview();
-            GetAllAutomationsList(App_Path + "\\Functions\\", "*FunctionSteps.json", dg_AutoList);
+            GetAllAutomationsList( dg_AutoList);
             tab_Main.TabPages[0].Select();
 
 
@@ -912,6 +912,30 @@ namespace HTMLElementSelect
             {
                 Console.WriteLine("match not found");
             }
+
+        }
+
+        public void TreeviewSelectOpenFunctionForm(string selectedText)
+        {
+            switch (selectedText)
+            {
+                case "T_Web_Actions_SendText":
+                    frm_Function_Sel_SendText frmSelSendText = new frm_Function_Sel_SendText();
+                    frmSelSendText.ShowDialog();
+                    break;
+               
+                default:
+                    // code block
+                    break;
+            }
+
+            //###########################  lite db to insert the automation detail
+            //LiteDB_Action.AddNewAuto_Lite(txt_AutoName.Text, txt_Description.Text, "Actually no need this");
+
+                    //###########################  end litedb insert
+
+
+              
 
         }
 
@@ -3338,13 +3362,13 @@ namespace HTMLElementSelect
         }
         private void bt_Tab4_CreateMappings_Click(object sender, EventArgs e)
         {
-            frm_DataScraper frmDataSc = new frm_DataScraper();
+            frm_Function_Sel_Datascrap frmDataSc = new frm_Function_Sel_Datascrap();
             frmDataSc.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            frm_DataScraper frmDataSc = new frm_DataScraper();
+            frm_Function_Sel_Datascrap frmDataSc = new frm_Function_Sel_Datascrap();
             frmDataSc.Show();
         }
 
@@ -3403,8 +3427,9 @@ namespace HTMLElementSelect
                 //###############################/ end liteDB insert
             }
 
-            tab_Main.SelectedIndex = 1;
-            TreeviewSelectFunction(selectedNode);
+           // tab_Main.SelectedIndex = 1;
+            //TreeviewSelectFunction(selectedNode);
+            TreeviewSelectOpenFunctionForm(selectedNodeFull);
         }
 
 
@@ -3714,7 +3739,7 @@ namespace HTMLElementSelect
 
                     LiteDB_Action.DeleteAuto_Lite(ClickRunAutoName);
                     //after delete , refresh
-                    GetAllAutomationsList(App_Path + "\\Functions\\", "*FunctionSteps.json", dg_AutoList);
+                    GetAllAutomationsList( dg_AutoList);
                  
                 }
               

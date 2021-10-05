@@ -1,7 +1,7 @@
 ﻿
 namespace HTMLElementSelect
 {
-    partial class frm_DataScraper
+    partial class frm_Function_Sel_Datascrap
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace HTMLElementSelect
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_DataScraper));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Function_Sel_Datascrap));
             this.dg_DataS_Mappings = new System.Windows.Forms.DataGridView();
             this.txt_XPath1 = new System.Windows.Forms.TextBox();
             this.txt_XPath2 = new System.Windows.Forms.TextBox();

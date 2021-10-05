@@ -40,3 +40,17 @@ C:\work\HJ\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.csproj.Co
 C:\work\HJ\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.csproj.CopyComplete
 C:\work\HJ\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.exe
 C:\work\HJ\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.pdb
+C:\work\git\AutomationPower\PowerAutoConsole\bin\Debug\PowerAutoConsole.exe.config
+C:\work\git\AutomationPower\PowerAutoConsole\bin\Debug\PowerAutoConsole.exe
+C:\work\git\AutomationPower\PowerAutoConsole\bin\Debug\PowerAutoConsole.pdb
+C:\work\git\AutomationPower\PowerAutoConsole\bin\Debug\LiteDB.dll
+C:\work\git\AutomationPower\PowerAutoConsole\bin\Debug\Newtonsoft.Json.dll
+C:\work\git\AutomationPower\PowerAutoConsole\bin\Debug\WebDriver.dll
+C:\work\git\AutomationPower\PowerAutoConsole\bin\Debug\LiteDB.xml
+C:\work\git\AutomationPower\PowerAutoConsole\bin\Debug\Newtonsoft.Json.xml
+C:\work\git\AutomationPower\PowerAutoConsole\bin\Debug\WebDriver.xml
+C:\work\git\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.csprojAssemblyReference.cache
+C:\work\git\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.csproj.CoreCompileInputs.cache
+C:\work\git\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.csproj.CopyComplete
+C:\work\git\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.exe
+C:\work\git\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.pdb

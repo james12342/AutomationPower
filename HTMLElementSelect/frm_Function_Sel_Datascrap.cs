@@ -16,7 +16,7 @@ using static HTMLElementSelect.Objects.Object_Lite_FunctionSteps;
 
 namespace HTMLElementSelect
 {
-    public partial class frm_DataScraper : Form
+    public partial class frm_Function_Sel_Datascrap : Form
     {
         //       "FunctionID": "FunctionID_SampleXXX_StepID1",
         //"": "FunctionName_SampleXXX_StepID1",
@@ -87,7 +87,7 @@ namespace HTMLElementSelect
 
 
 
-        public frm_DataScraper()
+        public frm_Function_Sel_Datascrap()
         {
             InitializeComponent();
         }

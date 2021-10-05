@@ -119,11 +119,11 @@
     <Compile Include="frm_Automation.Designer.cs">
       <DependentUpon>frm_Automation.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_DataScraper.cs">
+    <Compile Include="frm_Function_Sel_Datascrap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_DataScraper.Designer.cs">
-      <DependentUpon>frm_DataScraper.cs</DependentUpon>
+    <Compile Include="frm_Function_Sel_Datascrap.Designer.cs">
+      <DependentUpon>frm_Function_Sel_Datascrap.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_DiagramAction.cs">
       <SubType>Form</SubType>
@@ -176,8 +176,8 @@
     <EmbeddedResource Include="frm_Automation.resx">
       <DependentUpon>frm_Automation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_DataScraper.resx">
-      <DependentUpon>frm_DataScraper.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Function_Sel_Datascrap.resx">
+      <DependentUpon>frm_Function_Sel_Datascrap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_DiagramAction.resx">
       <DependentUpon>frm_DiagramAction.cs</DependentUpon>

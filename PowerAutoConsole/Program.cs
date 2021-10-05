@@ -103,7 +103,7 @@ namespace PowerAutoConsole
             if (args.Length==0)
             {
                 Console.WriteLine("argument is null");
-               // RunAutomationLite_Async("CovidSearch");
+                RunAutomationLite_Async("CovidSearch");
                 // RunAutomation_Async(@"C:\Users\james\Downloads\HTMLElementSelect\HTMLElementSelect\HTMLElementSelect\bin\Debug\Functions\LogicBroker pickList\LogicBroker pickList_FunctionSteps.json");
             }
             else
@@ -623,132 +623,25 @@ namespace PowerAutoConsole
                 //}
                 if (Action == "Send Key" && FunctionTableName == "T_OperationSystem_KeyAction_SendKey")
                 {
-                    if (isDynamicElementXPath != "true")
-                    {
-                        try
-                        {
-                            driver.FindElement(By.XPath(ElementXPath)).Click();
-                        }
-                        catch (Exception e2)
-                        {
-                            Thread.Sleep(3000); //try first time
-                            try
-                            {
-                                driver.FindElement(By.XPath(ElementXPath)).Click();
-                            }
-                            catch (Exception e3)
-                            {
-                                Thread.Sleep(3000);  //try 2nd time
-                                try
-                                {
-                                    driver.FindElement(By.XPath(ElementXPath)).Click();
-                                }
-                                catch (Exception e4)
-                                {
-                                    Thread.Sleep(3000);  //try 3rd time
-                                    try
-                                    {
-                                        driver.FindElement(By.XPath(ElementXPath)).Click();
-                                    }
-                                    catch (Exception e5)
-                                    {
-                                    }
-                                }
-                            }
-
-                        }
-                    }
-                    //dynamic case
-                    if (isDynamicElementXPath == "true")
-                    {
-                        string DynamicXPathValue = string.Empty;
-                        IList<IWebElement> all_Elements = null;
-                        all_Elements = driver.FindElements(By.XPath("//" + DynamicElementTagName + "[contains(@" + DynamicElementAttributeName + ",'" + DynamicElementAttributeValue1 + "')]"));
-
-                        foreach (IWebElement item in all_Elements)
-                        {
-                            DynamicXPathValue = item.GetAttribute("id");
-                            //*[@id="u_0_d_Op"]
-                            DynamicXPathValue = "//*[@id=\"" + DynamicXPathValue + "\"]";
-                        }
-
-                        try
-                        {
-                            driver.FindElement(By.XPath(DynamicXPathValue)).Click();
-                        }
-                        catch (Exception e2)
-                        {
-                            Thread.Sleep(3000); //try first time
-                            try
-                            {
-                                driver.FindElement(By.XPath(DynamicXPathValue)).Click();
-                            }
-                            catch (Exception e3)
-                            {
-                                Thread.Sleep(3000);  //try 2nd time
-                                try
-                                {
-                                    driver.FindElement(By.XPath(DynamicXPathValue)).Click();
-                                }
-                                catch (Exception e4)
-                                {
-                                    Thread.Sleep(3000);  //try 3rd time
-                                    try
-                                    {
-                                        driver.FindElement(By.XPath(DynamicXPathValue)).Click();
-                                    }
-                                    catch (Exception e5)
-                                    {
-                                    }
-                                }
-                            }
-
-                        }
-
-                    }
-                }
-                {
-                    //object►FunctionDetail►0►Action
-                    bool isExist = false;
-                    int SendKeyCount = int.Parse(FunctionActionDetail.FunDetail_SendKeyTimes); 
+                    int SendKeyCount = int.Parse(FunctionActionDetail.FunDetail_SendKeyTimes);
                     for (int i_key = 0; i_key <= SendKeyCount - 1; i_key++)
                     {
-                        if (!isExist)
+                        try
+
                         {
-                            try
-                            {
-                                //                         "Action":"Send KEY",
-                                //   "KEYName":"FunctionDetail_KEYName1_SampleXXX",
-                                //"KEYSendTimes":"FunctionDetail_KEYSendTimes1_SampleXXX",
-                                //"KEYSendWaitSeconds":"FunctionDetail_KEYSendWaitSeconds1_SampleXXX"
-                                int eachKeyCount = int.Parse(JO_ExecuteFunctionJson.SelectToken("FunctionDetail")[i_key].SelectToken("KEYSendTimes").ToString());
-                                for (int i_eachKey = 0; i_eachKey <= eachKeyCount - 1; i_eachKey++)
-                                {
-                                    try
-
-                                    {
-                                        SendKeys.SendWait(JO_ExecuteFunctionJson.SelectToken("FunctionDetail")[i_key].SelectToken("KEYName").ToString());
-                                        Thread.Sleep(500); //default each key send after sleep 0.5 second
-                                    }
-                                    catch (Exception e2)
-                                    {
-                                        isExist = true;
-                                        break; //it maybe donothing, so end it
-                                    }
-
-                                }
-                                int sleepseconds = int.Parse(JO_ExecuteFunctionJson.SelectToken("FunctionDetail")[i_key].SelectToken("KEYSendWaitSeconds").ToString()) * 1000;
-                                Thread.Sleep(sleepseconds);
-                            }
-                            catch (Exception e2)
-                            {
-                                break; //it maybe donothing, so end it
-                            }
+                            SendKeys.SendWait(FunctionActionDetail.FunDetail_SendValue);
+                            Thread.Sleep(500); //default each key send after sleep 0.5 second
                         }
-
+                        catch (Exception e2)
+                        {
+                           
+                            break; //it maybe donothing, so end it
+                        }
                     }
-
+                    int sleepseconds = int.Parse(FunctionActionDetail.FunDetail_AfterDoneWaitSeconds.ToString()) * 1000;
+                    Thread.Sleep(sleepseconds);
                 }
+               
 
             }
             Console.WriteLine(_CurrentAutoName + " Automation finish at:" + DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss"));

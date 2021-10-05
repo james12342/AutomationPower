@@ -193,6 +193,10 @@ namespace HTMLElementSelect.Functions
             {
                 string deleteLiteSQL_Automations = "Delete Automations  where AutoName ='" + AutoName + "'";
                 db.Execute(deleteLiteSQL_Automations);
+                //delete Autoname=null
+                string deleteLiteSQL_AutomationsNull = "Delete Automations  where AutoName =null";
+                db.Execute(deleteLiteSQL_AutomationsNull);
+
                 string deleteLiteSQL_AutoFunctionSteps = "Delete AutoFunctionSteps  where AutoName ='" + AutoName + "'";
                 db.Execute(deleteLiteSQL_AutoFunctionSteps);
                 string deleteLiteSQL_T_Web_Actions_SendText = "Delete T_Web_Actions_SendText  where AutoName ='" + AutoName + "'";
