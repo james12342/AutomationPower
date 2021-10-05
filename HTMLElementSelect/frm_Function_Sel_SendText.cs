@@ -19,18 +19,7 @@ namespace HTMLElementSelect
 
         private void bt_SaveStep_Click(object sender, EventArgs e)
         {
-            if (txt_XPath.Text == "" & CurrentisDynamicElementXPath == "False")
-            {
-                MessageBox.Show("Xpath value is empty");
-                return;
-            }
-            if (txt_SendValue.Text == "")
-            {
-                MessageBox.Show("Send Value is empty,please fill in");
-                txt_SendValue.Focus();
-                return;
-            }
-            SaveStep();
+           
         }
     }
 }

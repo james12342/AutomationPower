@@ -57,6 +57,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LiteDB_Action.cs" />
+    <Compile Include="Objects\Object_AutomationInfo.cs" />
+    <Compile Include="Objects\Object_AutoStepsJson.cs" />
+    <Compile Include="Objects\Object_FunctionActionsDetail.cs" />
+    <Compile Include="Objects\Object_Lite_FunctionSteps.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

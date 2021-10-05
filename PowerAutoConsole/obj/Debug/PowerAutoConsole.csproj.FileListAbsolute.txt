@@ -26,3 +26,17 @@ C:\Users\19135\OneDrive\Desktop\HTMLElementSelect\PowerAutoConsole\obj\Debug\Pow
 C:\Users\19135\OneDrive\Desktop\HTMLElementSelect\PowerAutoConsole\obj\Debug\PowerAutoConsole.csproj.CopyComplete
 C:\Users\19135\OneDrive\Desktop\HTMLElementSelect\PowerAutoConsole\obj\Debug\PowerAutoConsole.exe
 C:\Users\19135\OneDrive\Desktop\HTMLElementSelect\PowerAutoConsole\obj\Debug\PowerAutoConsole.pdb
+C:\work\HJ\AutomationPower\PowerAutoConsole\bin\Debug\PowerAutoConsole.exe.config
+C:\work\HJ\AutomationPower\PowerAutoConsole\bin\Debug\PowerAutoConsole.exe
+C:\work\HJ\AutomationPower\PowerAutoConsole\bin\Debug\PowerAutoConsole.pdb
+C:\work\HJ\AutomationPower\PowerAutoConsole\bin\Debug\LiteDB.dll
+C:\work\HJ\AutomationPower\PowerAutoConsole\bin\Debug\Newtonsoft.Json.dll
+C:\work\HJ\AutomationPower\PowerAutoConsole\bin\Debug\WebDriver.dll
+C:\work\HJ\AutomationPower\PowerAutoConsole\bin\Debug\LiteDB.xml
+C:\work\HJ\AutomationPower\PowerAutoConsole\bin\Debug\Newtonsoft.Json.xml
+C:\work\HJ\AutomationPower\PowerAutoConsole\bin\Debug\WebDriver.xml
+C:\work\HJ\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.csprojAssemblyReference.cache
+C:\work\HJ\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.csproj.CoreCompileInputs.cache
+C:\work\HJ\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.csproj.CopyComplete
+C:\work\HJ\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.exe
+C:\work\HJ\AutomationPower\PowerAutoConsole\obj\Debug\PowerAutoConsole.pdb

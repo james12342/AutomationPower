@@ -396,7 +396,7 @@ namespace HTMLElementSelect
             {
                 //string StepFunctionJSONFileFullName = App_Path + "\\Functions\\" + FunctionFolder + "\\" + JO_ExecuteFunctionListJson["StepList"][i].SelectToken("FunctionDetail").SelectToken("FunctionExecuteJsonLocation").ToString();
 
-                try { JO_ExecuteFunctionJson = JObject.Parse(File.ReadAllText(LatestFunctionListExecuteJsonFile)); } catch (Exception e2) { break; }
+               // try { JO_ExecuteFunctionJson = JObject.Parse(File.ReadAllText(LatestFunctionListExecuteJsonFile)); } catch (Exception e2) { break; }
 
                 //string StepID = JO_ExecuteFunctionListJson["StepList"][i].SelectToken("StepID").ToString();
                 //string FunctionName = JO_ExecuteFunctionListJson["StepList"][i].SelectToken("FunctionDetail").SelectToken("FunctionName").ToString();
