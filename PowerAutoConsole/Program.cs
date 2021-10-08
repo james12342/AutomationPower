@@ -196,7 +196,8 @@ namespace PowerAutoConsole
                         {
                             try
                             {
-                                driver.FindElement(By.XPath(ElementXPath)).SendKeys(SendValue);
+                                
+                            driver.FindElement(By.XPath(ElementXPath)).SendKeys(SendValue);
                             }
                             catch (Exception e2)
                             {

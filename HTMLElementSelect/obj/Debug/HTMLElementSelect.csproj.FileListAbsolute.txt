@@ -83,7 +83,6 @@ C:\Users\19135\OneDrive\Desktop\HTMLElementSelect\HTMLElementSelect\obj\Debug\HT
 C:\work\HJ\AutomationPower\HTMLElementSelect\obj\Debug\HTMLElementSelect.csprojAssemblyReference.cache
 C:\work\HJ\AutomationPower\HTMLElementSelect\obj\Debug\HTMLElementSelect.frm_AutoDigram.resources
 C:\work\HJ\AutomationPower\HTMLElementSelect\obj\Debug\HTMLElementSelect.frm_Automation.resources
-C:\work\HJ\AutomationPower\HTMLElementSelect\obj\Debug\HTMLElementSelect.frm_DataScraper.resources
 C:\work\HJ\AutomationPower\HTMLElementSelect\obj\Debug\HTMLElementSelect.frm_DiagramAction.resources
 C:\work\HJ\AutomationPower\HTMLElementSelect\obj\Debug\HTMLElementSelect.frm_Function_Sel_SendText.resources
 C:\work\HJ\AutomationPower\HTMLElementSelect\obj\Debug\HTMLElementSelect.frm_ImportScript.resources
@@ -136,3 +135,4 @@ C:\work\git\AutomationPower\HTMLElementSelect\obj\Debug\HTMLElementSelect.csproj
 C:\work\git\AutomationPower\HTMLElementSelect\obj\Debug\HTMLElementSelect.exe
 C:\work\git\AutomationPower\HTMLElementSelect\obj\Debug\HTMLElementSelect.pdb
 C:\work\git\AutomationPower\HTMLElementSelect\obj\Debug\HTMLElementSelect.frm_Function_Sel_Datascrap.resources
+C:\work\HJ\AutomationPower\HTMLElementSelect\obj\Debug\HTMLElementSelect.frm_Function_Sel_Datascrap.resources

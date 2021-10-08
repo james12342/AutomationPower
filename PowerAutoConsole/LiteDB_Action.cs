@@ -13,8 +13,8 @@ namespace HTMLElementSelect.Functions
 
     public class LiteDB_Action
     {
-        public static string LiteDBPath = @"C:\work\git\AutomationPower\HTMLElementSelect\bin\Debug\PowerAutoLiteDB.db";
-        //public static string LiteDBPath = @"C:\work\HJ\AutomationPower\HTMLElementSelect\bin\Debug\PowerAutoLiteDB.db";
+       // public static string LiteDBPath = @"C:\work\git\AutomationPower\HTMLElementSelect\bin\Debug\PowerAutoLiteDB.db";
+        public static string LiteDBPath = @"C:\work\HJ\AutomationPower\HTMLElementSelect\bin\Debug\PowerAutoLiteDB.db";
 
         #region "UPDATE"
         public static void UpdateAuto_Lite_MaxStep(string AutoName, int maxStep)
